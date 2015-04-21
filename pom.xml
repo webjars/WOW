@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>wowjs</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.2</version>
     <name>wowjs</name>
     <description>WebJar for wowjs</description>
     <url>http://webjars.org</url>
@@ -40,8 +40,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>1.1.0</upstream.version>
-        <upstream.url>https://raw.githubusercontent.com/matthieua/WOW/v${upstream.version}/dist</upstream.url>
+        <upstream.version>1.1.2</upstream.version>
+        <upstream.url>https://raw.githubusercontent.com/matthieua/WOW/${upstream.version}/dist</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
     </properties>
 
